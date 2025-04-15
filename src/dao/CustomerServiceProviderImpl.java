@@ -39,46 +39,4 @@ public class CustomerServiceProviderImpl implements ICustomerServiceProvider {
         String accNo = generateAccountNumber("CA");
         return new CurrentAccount(accNo, customer, initialBalance);
     }
-
-	@Override
-	public double getAccountBalance(long accountNumber) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public double deposit(long accountNumber, float amount) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public double withdraw(long accountNumber, float amount) {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public boolean transfer(long fromAccountNumber, long toAccountNumber, float amount) {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	@Override
-	public Account getAccountDetails(long accountNumber) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Transaction> getTransactions(long accountNumber, Date fromDate, Date toDate) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Transaction> getTransations(long accountNumber, Date fromDate, Date toDate) {
-		// TODO Auto-generated method stub
-		return null;
-	}
 }
