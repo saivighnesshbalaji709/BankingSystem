@@ -147,33 +147,5 @@ public class BankServiceImpl implements IBankServiceProvider, ICustomerServicePr
         return getAccountByNumber(accountNumber);
     }
 
-	public boolean createAccount(Customer customer, long accNo, String accType, float balance) {
-		return false;
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public List<Transaction> getTransactions(long accountNumber, Date fromDate, Date toDate) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public List<Account> listAccounts() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public void calculateInterest() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public List<Transaction> getTransations(long accountNumber, Date fromDate, Date toDate) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	
 }
